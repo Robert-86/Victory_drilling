@@ -173,7 +173,7 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    padding: 100px 0;
+    padding: 90px 0;
 }
 
 .services .container {
@@ -213,11 +213,10 @@
 
 
 .services  p {
-    margin-top: 40px;
+    margin-top: 35px;
 }
 
 .services .service-card {
-    width: 1220px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
     gap: 20px;
