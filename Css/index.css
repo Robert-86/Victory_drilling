@@ -69,7 +69,7 @@
     position: relative;
     color: rgb(255, 255, 255);
     font-weight: 400;
-    font-size: 17px;
+    font-size: 16px;
 }
 
 .header nav ul li a:before {
@@ -226,13 +226,41 @@
     display: grid;
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
-    gap: 20px;
+    gap: 25px;
     margin-top: 90px;
 }
 
 .service-item {
     background-color: #0a2c5e1a;
-    padding:20px;
+    padding:25px;
     border-radius: 10px;
     transition: transform 0.3s ease;
+}
+
+.service-item h3 {
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.service-item .icon-box {
+    font-size:40px;
+    color: #0a2c5e;
+    margin-bottom: 10px;
+}
+
+.service-item p {
+    margin: 10px 0 20px 0;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.service-item .btn-small{
+    background-color: #0a2c5e;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: background 0.3s ease;
 }
