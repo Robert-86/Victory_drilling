@@ -30,7 +30,7 @@
   /* height: 9vh; */
   text-align: center;
   background-color: #0a2c5e;
-  overflow: hidden;
+  /* overflow: hidden; */
   padding: 10px;
   z-index: 1000;
 }
