@@ -232,7 +232,7 @@
 
 .service-item {
     background-color: #0a2c5e1a;
-    padding:25px;
+    padding:20px;
     border-radius: 10px;
     transition: transform 0.3s ease;
 }
